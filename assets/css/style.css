@@ -64,5 +64,39 @@ header {
 /* end header */
 
 /* start category */
+.category {
+    background-color: #ffb91a;
+    padding: 80px;
+}
+.category_box {
+    background-color: #80f4ee;
+    width: 85%;
+    margin: 0 auto;
+}
+.category_items {
+    background-color: #29ef54;
+}
+.category_item {
+    background-color: #9831f2;
+    width: 24%;
+    padding: 50px 0;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+}
+.category_item:hover{
+    border: 1px solid #ffb91a;
+}
+.category_item img {
+    width: 100px;
+}
+.category_item h3 {
+    margin-top: 15px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
 
 /* end category */
