@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body {
+    height: 10000px;
+}
 .font-bebas {
     font-family: "Bebas Neue", sans-serif;
 }
@@ -23,6 +26,7 @@
     border-radius: 10px;
     text-decoration: none;
     font-size: 20px;
+    letter-spacing: 1px;
 }
 /* start header */
 header {
@@ -58,3 +62,7 @@ header {
 }
 
 /* end header */
+
+/* start category */
+
+/* end category */
