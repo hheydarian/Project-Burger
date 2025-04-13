@@ -65,19 +65,17 @@ header {
 
 /* start category */
 .category {
-    background-color: #ffb91a;
     padding: 80px;
 }
 .category_box {
-    background-color: #80f4ee;
     width: 85%;
     margin: 0 auto;
 }
 .category_items {
-    background-color: #29ef54;
+    display: flex;
+    justify-content: space-between;
 }
 .category_item {
-    background-color: #9831f2;
     width: 24%;
     padding: 50px 0;
     border-radius: 10px;
@@ -85,18 +83,19 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid #fff;
+    border: 1px solid transparent;
 }
-.category_item:hover{
-    border: 1px solid #ffb91a;
+.category_item:hover {
+    border-color: #ffb91a;
 }
 .category_item img {
     width: 100px;
 }
 .category_item h3 {
-    margin-top: 15px;
-    letter-spacing: 2px;
+    margin-top: 18px;
+    letter-spacing: 1px;
     font-size: 20px;
+    font-weight: 500;
 }
 
 /* end category */
