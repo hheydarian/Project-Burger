@@ -31,10 +31,15 @@ body {
 
 /* start nav */
 nav {
-    background-color: #f4d48b;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+nav i {
+    font-size: 10px;
 }
 .nav_box {
-    background-color: #ffb91a;
     width: 85%;
     margin: 0 auto;
 }
@@ -54,9 +59,9 @@ nav {
     padding: 0 10px;
 }
 .nav_links {
-    background-color: #5417d9;
     list-style-type: none;
     display: flex;
+    justify-content: center;
     width: 20%;
 }
 .nav_links a {
@@ -69,7 +74,7 @@ nav {
     transition: 0.2s;
     margin: 0 5px;
 }
-.nav_links a:hover {
+.nav_links > li:hover > a {
     color: #ffb91a;
 }
 .nav_brand a {
@@ -85,6 +90,32 @@ nav {
 }
 .nav_link_shop a {
     text-decoration: none;
+    color: #fff;
+}
+.nav_links > li {
+    position: relative;
+}
+.nav_links > li > ul {
+    background-color: #ffb91a;
+    list-style-type: none;
+    padding: 15px 8px;
+    width: 100px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+}
+.nav_links > li:hover ul {
+    display: block;
+}
+.nav_links > li > ul a {
+    padding: 5px 0;
+    display: block;
+    color: #000;
+    letter-spacing: 1.2px;
+    transition: 0.2s;
+}
+.nav_links > li > ul a:hover {
     color: #fff;
 }
 /* end nav */
